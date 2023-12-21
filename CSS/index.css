@@ -1,0 +1,98 @@
+body{
+    background-color:#F2E4E9 !important;
+}
+
+#lado_esquerda{
+    top:-20%;
+    position:fixed;
+    background-image:url('../Imagens/patinhas_lado.png');
+    background-size: 100%;
+    height:120%;
+    width:5%;
+    float:left;
+    z-index: -2;
+}
+
+#lado_direita{
+    top:-20%;
+    position:fixed;
+    transform: rotateY(180deg);
+    background-image:url('../Imagens/patinhas_lado.png');
+    background-size: 100%;
+    height:120%;
+    width:5%;
+    right:0;
+    z-index: -2;
+}
+
+#gradiente_roxo{
+    position:absolute;
+    height:400vh;
+    max-height:100%;
+    width:100%;
+}
+
+.d-block{
+    width:30vw !important;
+    height:20vw !important;
+    height:auto;
+}
+
+#carouselExampleIndicators{
+    overflow: hidden;
+    position:absolute;
+    top:7vw;
+    width:30vw;
+    height:20vw !important;
+    right:15%;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.204);
+}
+
+#porco_apresentacao{
+    width:35%;
+    position:absolute;
+    left:10%;
+}
+
+#dogs_out{
+    max-width: 80%;
+    margin-top:25%;
+}
+
+#aumigos_iconicos, #quadro_sobre_zoofobias{
+    max-width:80%;
+}
+
+.rodape{
+    width:100%;
+    padding:1.5em;
+    color:white;
+    background-color: #785196;
+}
+
+.contatos{
+    max-width:50%;
+}
+
+.rodape p{
+    margin-left: 5%;
+}
+
+.copyright{
+    float:right;
+}
+
+.arrow{
+    align-items: center;
+    background-color: #F2E4E9;
+    border-radius: 50%;
+    height:1em;
+    width:fit-content;
+    display:block;
+    position:fixed;
+    bottom:0;
+    right:10%;
+    font-size: 7em;
+    color:rgb(47, 32, 59);
+}

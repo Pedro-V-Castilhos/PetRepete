@@ -1,0 +1,73 @@
+body{
+    background-color: #F2E4E9 !important;
+}
+
+#barra_de_pesquisa{
+    padding:0.5em !important;
+    height:3.5em !important;
+    max-height: 3.5em !important;
+}
+
+#addon-wrapping{
+    padding:1em !important;
+    height: 3.5em !important;
+}
+
+#barra_de_pesquisa:focus{
+    box-shadow: 0 0 0 0.1rem rgba(114, 67, 143, 0.5) !important;
+    height:3.5em !important;
+    max-height: 3.5em !important;
+}
+
+.input-group{
+    padding:1.5em !important;
+    display:flex;
+    justify-content: space-around;
+    max-width:90%;
+    margin-left: 5% !important;
+    height: 5em !important;
+    height: fit-content !important;
+}
+
+.informacoes_usuario{
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+
+.informacoes_usuario p{
+    margin-left:10%;
+}
+
+.autor{
+    display: flex;
+    height:5em;
+    align-items: center;
+    line-height: -1%;
+}
+
+.foto_perfil_feed{
+    display: flex;
+    width:3.5em;
+    height:3.5em;
+    border-radius:50%;
+}
+
+.link_usuario{
+    width:10em;
+    padding:1em;
+    margin-left: 12.5%;
+    height:fit-content;
+    text-decoration: none;
+    position:static;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link_usuario p{
+    align-items: center;
+    font-size: large;
+    margin-left: 1em;
+    color: black;
+}

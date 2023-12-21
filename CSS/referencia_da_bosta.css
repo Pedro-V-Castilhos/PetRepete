@@ -1,0 +1,201 @@
+.embrulho{
+    display:flex;
+    position:fixed;
+    width:70%;
+    height:60%;
+    background:#F2E4E9;
+    border:solid 0.3vw #190E5A;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    z-index:7;
+    margin-top:auto;
+    transform:scale(0);
+    transition:0.75s;
+    overflow:hidden;
+}
+
+
+.embrulho.ativo{
+    transform:scale(1) translateY(30%);;
+}
+
+.embrulho.ativo::backdrop{
+    background-color: #785196;
+}
+
+.embrulho .form{
+    width:50%;
+    padding:5%;
+    height:100%;
+}
+
+.embrulho .form.login{
+    opacity:0;
+    right:-2%;
+    position:absolute;
+    transform:translateX(30em);
+    transition: 0.5s;
+}
+
+.embrulho .form.cadastro1{
+    opacity:0;
+    right:4%;
+    position:absolute;
+    transform:translateX(30em);
+    transition: 0.5s;
+}
+
+.embrulho .form.cadastro2{
+    opacity:0;
+    right:4%;
+    position:absolute;
+    transform:translateX(30em);
+    transition: 0.5s;
+}
+
+.popup_aba_aberta{
+    opacity:100% !important;
+    display:block !important;
+    transform:translateX(0) !important;
+}
+
+.embrulho .icon_close{
+    z-index: 3;
+    position:absolute;
+    top:0;
+    right:0;
+    width:5vw;
+    height:5vw;
+    background-color:#785196;
+    font-size:3vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    cursor:pointer
+}
+
+.embrulho .icon_close:hover{
+    color:white;
+}
+
+.form{
+    position:relative;
+    display:flex !important;
+    align-items: center;
+}
+
+.form h2{
+    color: #785196;
+    font-size:4vw;
+    font-weight:800;
+    text-align: center;
+}
+
+.input-group{
+    position:relative;
+    width:100%;
+    padding:0.5vw;
+}
+
+.form-control{
+    border-top-right-radius: 2vw !important;
+    border-bottom-right-radius: 2vw !important;
+    height:2vw !important;
+    max-height: 2vw !important;
+    font-size: 1vw !important;
+    margin-bottom: 0.5vw !important;
+    padding:0 !important;
+}
+
+#addon-wrapping{
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    font-size: 1vw !important;
+    height:2vw !important;
+    padding:0 !important;
+}
+
+.logo_rosa{
+    position:absolute;
+    left:5%;
+    padding-right:5%;
+    border-right:solid 0.1vw rgb(73, 0, 73);
+    display:flex;
+    width:40%;
+}
+
+.lembrar_esquecer{
+    padding-bottom: 0.1vw !important;
+    font-size:1vw;
+    color:#785196;
+    font-weight: 500;
+    margin:-1vw 0 1vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.lembrar_esquecer a{
+    color: #785196;
+    text-decoration: none;
+}
+
+.lembrar_esquecer a:hover{
+    text-decoration: underline;
+}
+
+.form .btn.btn-submit, .form button{
+    align-items: center;
+    background-color: #785196;
+    color:white;
+    font-weight: 700;
+    width:100%;
+    border-radius: 5vw;
+    height:3vw !important;
+    font-size: 1vw;
+}
+
+.form .btn.btn-submit:hover, .form button:hover{
+   background-color:#cd8cff;
+}
+
+.link_cadastro{
+    width:100%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.link_cadastro a{
+    font-size: 1vw;
+    font-weight: 700;
+    color:#785196;
+    text-decoration: none;
+}
+
+.link_cadastro a:hover{
+    text-decoration: underline;
+}
+
+.form-check-input.form_zoofobias{
+    font-size:1vw;
+    color:#785196;
+    font-weight: 500;
+}
+
+.zoofobias{
+    position:relative;
+    columns: 3;
+    overflow:hidden;
+}
+
+.zoofobias label{
+    font-size: 1vw;
+    padding:0;
+}
+
+a{
+    cursor:pointer !important;
+}
